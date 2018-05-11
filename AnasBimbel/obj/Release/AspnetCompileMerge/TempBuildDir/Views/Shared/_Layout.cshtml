@@ -1,0 +1,96 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="@ViewBag.Title">
+    <meta name="keywords" content="@ViewBag.Keyword">
+    <meta name="author" content="John Hadikusumo">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>@ViewBag.Title - www.anasbimbel.com<</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/Images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="/Images/favicon.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700%7CMontserrat:800" rel="stylesheet">
+    @RenderSection("StyleSection", false)
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!-- ========== Body Starts ========== -->
+<body id="body" ng-app="appAB">
+    @{
+        string actionName = HttpContext.Current.Request.RequestContext.RouteData.Values["action"].ToString();
+        string controllerName = HttpContext.Current.Request.RequestContext.RouteData.Values["controller"].ToString();
+        bool isLoggedIn = HttpContext.Current.User.Identity.IsAuthenticated;
+        string username = isLoggedIn ? HttpContext.Current.User.Identity.Name : string.Empty;
+    }
+    <!-- ========== NavBar ========== -->
+    <nav id="nav" class="navbar custom-navbar navbar-fixed-top @Html.Raw(controllerName=="Artikel"?"scroll":"scroll-mob")">
+        <div class="container">
+            <!-- NAVBAR HEADER -->
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                </button>
+                <!-- lOGO TEXT HERE -->
+                <a href="/" class="navbar-brand">Anas<span class="contrast">Bimbel</span></a>
+            </div>
+            <!-- NAVIGATION LINKS -->
+            <div class="collapse navbar-collapse">
+                @if (controllerName == "Home")
+                {
+                    <text>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#home" class="active">Halaman Utama</a></li>
+                            <li><a href="#about">Tentang Saya</a></li>
+                            <li><a href="#service">Pelayanan</a></li>
+                            <li><a href="#portfolio">Murid</a></li>
+                            <li><a href="#kesaksian">Kesaksian Murid</a></li>
+                            <li><a href="/Artikel">Artikel</a></li>
+                            <li><a href="#contact">Hubungi</a></li>
+                        </ul>
+                    </text>
+                }
+                else
+                {
+                    <text>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="/">Halaman Utama</a></li>
+                            <li><a href="/Artikel" class="active">Artikel</a></li>
+                        </ul>
+                    </text>
+                }
+            </div>
+        </div>
+    </nav>
+    <!-- ========== End Of NavBar ========== -->
+    @RenderBody()
+    <!--=============== Footer ===============-->
+    <footer>
+        <a href="https://www.facebook.com/anastasia.sriwahyuni.94" target="_blank" class="facebook-tooltip"><i class="fa fa-facebook"></i><span class="facebook-text">Facebook</span></a>
+        <a href="https://twitter.com/AnasBimbel" target="_blank" class="twitter-tooltip"><i class="fa fa-twitter"></i><span class="twitter-text">Twitter</span></a>
+        <a href="https://www.instagram.com/anastasiasriwahyuni0966" target="_blank" class="instagram-tooltip"><i class="fa fa-instagram"></i><span class="instagram-text">Instagram</span></a>
+        <a href="https://www.youtube.com/channel/UCwcLajgwS1_4STkfgshgWhQ?view_as=subscriber" target="_blank" class="youtube-tooltip"><i class="fa fa-youtube"></i><span class="youtube-text">YouTube</span></a>
+        <a href="https://www.linkedin.com/in/anastasia-sri-wahyuni-166b78162" target="_blank" class="linkedin-tooltip"><i class="fa fa-linkedin"></i><span class="linkedin-text">LinkedIn</span></a>
+        <a href="https://id.pinterest.com/anas8967" target="_blank" class="pinterest-tooltip"><i class="fa fa-pinterest"></i><span class="pinterest-text">Pinterest</span></a>
+        <p class="wow zoomIn">&copy; 2018 <strong>AnasBimble.com</strong>. Hak Cipta Dilindungi Undang Undang.</p>
+    </footer>
+    <!--=============== End Of Footer ===============-->
+    @RenderSection("ScriptSection", false)
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118027647-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-118027647-1');
+    </script>
+</body>
+<!-- ========== End of Body ========== -->
+</html>    

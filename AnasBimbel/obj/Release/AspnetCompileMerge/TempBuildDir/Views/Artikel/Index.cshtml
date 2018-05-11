@@ -1,0 +1,75 @@
+﻿@using AnasBimbel.Models
+@{
+    ArticleModel content = (ArticleModel)ViewData["content"];
+    List<ArticleModel> list = (List<ArticleModel>)ViewData["list"];
+    ViewBag.Title = content.Title;
+    ViewBag.Keyword = content.Keywords;
+
+}
+<div id="main-blog" class="row">
+    <div class="heading">
+        <h2>@Html.Raw(content.Title)</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-sm-8">
+                <img src="@Html.Raw(content.ImageURL)" alt="image" class="img-responsive">
+                <br/>
+                @Html.Raw(content.Description)
+                <div class="row">
+                    <br/>
+                </div>
+                <div class="share-social text-right">
+                    <div class="addthis_inline_share_toolbox"></div>
+                </div>
+                <div class="row">
+                    <br />
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                @{
+                    foreach (ArticleModel item in list)
+                    {
+                        <div class="single-smallpost">
+                            <div class="post-image">
+                                <div class="img-thumbnail">
+                                    <a href="/Artikel/Lihat/@Html.Raw(item.TitleURL)">
+                                        <img src="@Html.Raw(item.ImageURL)" class="side" alt="@Html.Raw(item.Title)">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="post-info">
+                                <a href="/Artikel/Lihat/@Html.Raw(item.TitleURL)">@Html.Raw(item.Title)</a>
+                                <div class="post-date">
+                                    @Html.Raw(item.PublishedDate.ToString())
+                                </div>
+                            </div>
+                        </div>
+                        <br/>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ========== End of Scroll to Top ========== -->
+@section ScriptSection {
+    <script src="/Scripts/Vendor/jquery/jquery-2.1.4.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="/Scripts/Vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Scroll up -->
+    <script src="/Scripts/scroll-up.js"></script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5aedaf95404c14d1"></script>
+}
+
+
+@section StyleSection {
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/content/bootstrap.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="/Scripts/Vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Theme CSS -->
+    <link rel="stylesheet" type="text/css" href="/Content/style.css" id="pagestyle">
+    <link rel="stylesheet" type="text/css" href="/Content/single-post.css">
+    <link rel="stylesheet" type="text/css" href="/Content/responsive.css">
+}

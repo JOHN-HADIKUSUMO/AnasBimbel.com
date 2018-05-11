@@ -1,0 +1,15 @@
+D:\anasbimbel\AnasBimbel.Models\bin\Release\AnasBimbel.Models.dll
+D:\anasbimbel\AnasBimbel.Models\bin\Release\AnasBimbel.Models.pdb
+D:\anasbimbel\AnasBimbel.Models\bin\Release\log4net.dll
+D:\anasbimbel\AnasBimbel.Models\bin\Release\Newtonsoft.Json.dll
+D:\anasbimbel\AnasBimbel.Models\bin\Release\log4net.xml
+D:\anasbimbel\AnasBimbel.Models\bin\Release\Newtonsoft.Json.xml
+D:\anasbimbel\AnasBimbel.Models\obj\Release\AnasBimbel.Models.csprojResolveAssemblyReference.cache
+D:\anasbimbel\AnasBimbel.Models\obj\Release\AnasBimbel.Models.dll
+D:\anasbimbel\AnasBimbel.Models\obj\Release\AnasBimbel.Models.pdb
+D:\anasbimbel\AnasBimbel.Models\bin\Release\AWSSDK.Core.dll
+D:\anasbimbel\AnasBimbel.Models\bin\Release\AWSSDK.SimpleNotificationService.dll
+D:\anasbimbel\AnasBimbel.Models\bin\Release\AWSSDK.Core.pdb
+D:\anasbimbel\AnasBimbel.Models\bin\Release\AWSSDK.Core.xml
+D:\anasbimbel\AnasBimbel.Models\bin\Release\AWSSDK.SimpleNotificationService.pdb
+D:\anasbimbel\AnasBimbel.Models\bin\Release\AWSSDK.SimpleNotificationService.xml

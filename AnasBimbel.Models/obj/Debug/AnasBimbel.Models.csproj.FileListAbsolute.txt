@@ -1,0 +1,15 @@
+D:\anasbimbel\AnasBimbel.Models\bin\Debug\AnasBimbel.Models.dll
+D:\anasbimbel\AnasBimbel.Models\bin\Debug\AnasBimbel.Models.pdb
+D:\anasbimbel\AnasBimbel.Models\bin\Debug\log4net.dll
+D:\anasbimbel\AnasBimbel.Models\bin\Debug\Newtonsoft.Json.dll
+D:\anasbimbel\AnasBimbel.Models\bin\Debug\log4net.xml
+D:\anasbimbel\AnasBimbel.Models\bin\Debug\Newtonsoft.Json.xml
+D:\anasbimbel\AnasBimbel.Models\obj\Debug\AnasBimbel.Models.dll
+D:\anasbimbel\AnasBimbel.Models\obj\Debug\AnasBimbel.Models.pdb
+D:\anasbimbel\AnasBimbel.Models\obj\Debug\AnasBimbel.Models.csprojResolveAssemblyReference.cache
+D:\anasbimbel\AnasBimbel.Models\bin\Debug\AWSSDK.Core.dll
+D:\anasbimbel\AnasBimbel.Models\bin\Debug\AWSSDK.SimpleNotificationService.dll
+D:\anasbimbel\AnasBimbel.Models\bin\Debug\AWSSDK.Core.pdb
+D:\anasbimbel\AnasBimbel.Models\bin\Debug\AWSSDK.Core.xml
+D:\anasbimbel\AnasBimbel.Models\bin\Debug\AWSSDK.SimpleNotificationService.pdb
+D:\anasbimbel\AnasBimbel.Models\bin\Debug\AWSSDK.SimpleNotificationService.xml

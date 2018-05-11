@@ -1,0 +1,4 @@
+D:\anasbimbel\AnasBimbel.WinServices\obj\Release\AnasBimbel.WinServices.csprojResolveAssemblyReference.cache
+D:\anasbimbel\AnasBimbel.WinServices\obj\Release\AnasBimbel.WinServices.csproj.AnasBimbel.WinServices.exe.config
+D:\anasbimbel\AnasBimbel.WinServices\obj\Release\AnasBimbel.WinServices.exe
+D:\anasbimbel\AnasBimbel.WinServices\obj\Release\AnasBimbel.WinServices.pdb

@@ -1,0 +1,11 @@
+D:\anasbimbel\AnasBimbel.Interfaces\bin\Debug\AnasBimbel.Interfaces.dll
+D:\anasbimbel\AnasBimbel.Interfaces\bin\Debug\AnasBimbel.Interfaces.pdb
+D:\anasbimbel\AnasBimbel.Interfaces\bin\Debug\AnasBimbel.Models.dll
+D:\anasbimbel\AnasBimbel.Interfaces\bin\Debug\EntityFramework.dll
+D:\anasbimbel\AnasBimbel.Interfaces\bin\Debug\EntityFramework.SqlServer.dll
+D:\anasbimbel\AnasBimbel.Interfaces\bin\Debug\AnasBimbel.Models.pdb
+D:\anasbimbel\AnasBimbel.Interfaces\bin\Debug\EntityFramework.xml
+D:\anasbimbel\AnasBimbel.Interfaces\bin\Debug\EntityFramework.SqlServer.xml
+D:\anasbimbel\AnasBimbel.Interfaces\obj\Debug\AnasBimbel.Interfaces.csprojResolveAssemblyReference.cache
+D:\anasbimbel\AnasBimbel.Interfaces\obj\Debug\AnasBimbel.Interfaces.dll
+D:\anasbimbel\AnasBimbel.Interfaces\obj\Debug\AnasBimbel.Interfaces.pdb

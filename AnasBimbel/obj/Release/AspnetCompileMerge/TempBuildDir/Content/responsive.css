@@ -1,0 +1,79 @@
+/*
+===========================================================================
+ EXCLUSIVE ON themeforest.net
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Template Name   : Velocity - Responsive Personal Template
+ Version         : 2.0
+ Author          : bootWeb
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Copyright (c) 2017 - bootWeb - https://themeforest.net/user/bootweb
+===========================================================================
+
+NOTE: This is a responsive stylesheet of the template. This file contains the styling for various devices like mobile phone, tablet, laptop etc.
+*/
+
+/*================================================
+            Table of contents  
+==================================================
+ 
+1. Layout greater than 768px
+2. Layout lesser than 768px
+
+====================================================
+            End table content 
+===================================================*/
+
+/*-------------------------------------------------------*/
+    /* Layout greater than 768px */
+/*-------------------------------------------------------*/
+@media(min-width:768px) {
+    .custom-navbar {
+        border-bottom: 0;
+        padding: 10px 0px;
+    }
+    .custom-navbar .nav li a {
+        margin: 8px 0px;
+    }
+    #home .text h1 {
+      font-size: 60px;
+      font-weight: bold;
+    }
+    #home .text .element,
+    .typed-cursor {
+        font-size: 30px;
+    }
+}
+
+/*-------------------------------------------------------*/
+    /* Layout lesser than 768px */
+/*-------------------------------------------------------*/
+@media (max-width:768px){
+    .navbar-collapse {
+        text-align:center;  
+    }
+    .custom-navbar .nav li a {
+        line-height: 20px;
+        overflow: hidden;
+    }
+    .scroll-mob {
+        background-color: #111 !important;
+    }
+    .custom-navbar .navbar-nav > li > a.active {
+        border-bottom: none;
+    }
+    .custom-navbar .navbar-brand {
+        position: relative;
+        bottom: 5px;
+    }
+    #home .text h1 {
+      font-size: 46px;
+      font-weight: bold;
+    }
+    #home .text .element,
+    .typed-cursor {
+        font-size: 24px;
+    }
+    #about .row h1 {
+      margin-top: 0;
+    }
+}

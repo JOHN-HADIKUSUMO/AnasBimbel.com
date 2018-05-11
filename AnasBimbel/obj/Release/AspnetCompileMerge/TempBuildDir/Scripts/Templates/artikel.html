@@ -1,0 +1,14 @@
+﻿<div class="col-xs-12 col-sm-6 col-md-4" ng-repeat="item in data">
+    <div class="single-blog wow fadeIn" data-wow-delay="0.2s">
+        <a href="single-post.html" target="_blank"><img src="{{item.ImageURL}}" alt="image" class="img-responsive"></a>
+        <div class="post-description text-right">
+            <br />
+            <span><i class="fa fa-calendar"></i> {{item.PublishedDateString}}</span>
+        </div>
+        <div class="subtitle">{{item.Title}}</div> <!-- Edit  -->
+        <p>{{item.ShortDescription}}</p>
+        <div class="text-center">
+            <a href="/Artikel/Lihat/{{item.TitleURL}}" class="blog-btn" target="_blank">Lanjut</a>
+        </div>
+    </div>
+</div>

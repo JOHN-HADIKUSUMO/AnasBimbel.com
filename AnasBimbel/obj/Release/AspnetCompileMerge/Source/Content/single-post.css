@@ -1,0 +1,123 @@
+/*-------------------------------------------------------*/
+  /* Single Post */
+/*-------------------------------------------------------*/
+#main-blog {
+	margin-top: 60px;
+}
+#main-blog h2 {
+	color: #0099e6;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#main-blog h3 {
+	margin-bottom: 30px;
+	color: #0099e6;
+}
+#main-blog p.content {
+	margin-top: 20px;
+}
+#main-blog span.attr {
+	margin-right: 20px;
+}
+#main-blog span .fa {
+	color: #666;
+}
+#main-blog .form-control {
+	height: 50px;
+}
+#main-blog .news-btn {
+	background-color: #0099e6;
+	height: 50px;
+	width: 50px;
+}
+#main-blog button .fa {
+	font-size: 20px;
+	color: #fff;
+}
+.separator {
+	height: 1px;
+	margin: 60px 0px;
+	background-color: #bbb;
+}
+.separator2 {
+	height: 1px;
+	margin: 0px 0px 60px 0px;
+	background-color: #bbb;
+}
+.separator3 {
+	height: 1px;
+	margin: 30px 0px;
+	background-color: #bbb;
+}
+.share-social a {
+	width: 40px;
+	height: 40px;
+	text-decoration: none;
+	color: #666;
+	display: inline-table;
+	font-size: 18px;
+}
+.share-social a i{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 50%;
+}
+.share-social a:hover .fa-facebook {
+	background-color: #3B5998;
+	color: #fff;
+}
+.share-social a:hover .fa-twitter {
+	background-color: #00ACEE;
+	color: #fff;
+}
+.share-social a:hover .fa-pinterest {
+	background-color: #C8232C;
+	color: #fff;
+}
+.share-social a:hover .fa-google-plus {
+	background-color: #DD4B39;
+	color: #fff;
+} 
+.share-social a:hover .fa-rss {
+	background-color: #EE802F;
+	color: #fff;
+}
+a.related-post-headline {
+	display: block;
+	font-size: 19px;
+	font-weight: 500;
+	color: #111;
+	margin: 20px 0px 10px 0px;
+}
+a.related-post-headline:hover {
+	color: #0099e6;
+	text-decoration: none;
+}
+.rel-post-p {
+	margin-top: 10px !important;
+}
+.post-content {
+	margin-bottom: 60px;
+}
+.form-control:focus {
+	border: 1.5px solid #0099e6;
+}
+#main-blog .single-smallpost {
+	padding: 20px 0;
+}	
+.post-image {
+	float: left;
+	margin-right: 12px;
+}
+.post-info a {
+	color: #0099e6;
+	font-size: 15px;
+}
+.post-date {
+	color: #666;
+    font-size:12px;
+}
+.mb-50 {
+	margin-bottom: 50px;
+}

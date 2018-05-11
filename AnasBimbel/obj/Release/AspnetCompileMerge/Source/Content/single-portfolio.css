@@ -1,0 +1,22 @@
+/*-------------------------------------------------------*/
+  /* General */
+/*-------------------------------------------------------*/
+#main-portfolio {
+	margin-top: 60px;
+	padding-bottom: 60px;
+}
+#main-portfolio img {
+	margin: auto;
+}
+#main-portfolio h2 {
+	text-align: center;
+}
+#main-portfolio .separator {
+	height: 1px;
+	background-color: #bbb;
+	margin: 40px 0px;
+}
+#main-portfolio .fa-check,
+#main-portfolio a {
+	color: #0099e6;
+}
